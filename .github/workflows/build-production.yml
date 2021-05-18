@@ -47,4 +47,4 @@ jobs:
           context: .
           push: true
           # List of tags
-          tags: contoso-website:${GITHUB_REF#refs/tags}
+          tags: ${{ secrets.ACR_NAME }}/contoso-website:${GITHUB_REF#refs/tags}
