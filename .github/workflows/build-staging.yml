@@ -47,6 +47,6 @@ jobs:
         with:
           context: .
           tags: latest
-          repository: contoso-website
+          
 
  
