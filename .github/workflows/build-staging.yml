@@ -49,7 +49,7 @@ jobs:
           build-args: |
             arg1=value1
             arg2=value2
-          tags: ${{ secrets.ACR_NAME }}\contoso-website:latest
+          tags: ${{ secrets.ACR_NAME }}/contoso-website:latest
           push: true
           
 
